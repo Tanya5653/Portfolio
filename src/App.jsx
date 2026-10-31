@@ -160,7 +160,7 @@ function App() {
           <div className="container hero-layout">
             <div className="hero-copy">
               <span className="eyebrow"><span className="status-dot" /> Open to full-time opportunities</span>
-              <p className="hero-intro">Hello, I&apos;m<span aria-hidden="true">✳</span></p>
+              <p className="hero-intro">Hello, I&apos;m<span aria-hidden="true"><Icon name="sparkle" size={16} /></span></p>
               <h1>Tanya <span>Kumari</span></h1>
               <p className="hero-description">
                 Web developer and computer science graduate who turn ideas into intuitive web experiences, with clean code and an eye for the details.
@@ -193,7 +193,7 @@ function App() {
                 <div className="profile-avatar">
                   <div className="avatar-halo" />
                   <div className="avatar-shape"><span>tk</span></div>
-                  <span className="avatar-spark avatar-spark--one">✳</span>
+                  <span className="avatar-spark avatar-spark--one"><Icon name="sparkle" size={27} /></span>
                   <span className="avatar-spark avatar-spark--two">✦</span>
                 </div>
                 <div className="profile-caption">
@@ -204,7 +204,7 @@ function App() {
                 <div className="code-sticker"><Icon name="code" size={19} /></div>
               </div>
               <div className="floating-note floating-note--top clay-card">
-                <span className="note-emoji">✳</span>
+                <span className="note-emoji"><Icon name="sparkle" size={22} /></span>
                 <span>Made with<br /><strong>curiosity</strong></span>
               </div>
               <div className="floating-note floating-note--bottom clay-card">
@@ -320,11 +320,11 @@ function App() {
                   ))}
                 </ul>
                 <div className="recognition-note">
-                  <span className="recognition-star">✳</span>
+                  <span className="recognition-star"><Icon name="sparkle" size={14} /></span>
                   Recognized for proactive problem-solving and clean UI implementation
                 </div>
               </div>
-              <div className="experience-decoration" aria-hidden="true">✳</div>
+              <div className="experience-decoration" aria-hidden="true"><Icon name="sparkle" size={83} /></div>
             </article>
           </div>
         </section>
@@ -371,7 +371,7 @@ function App() {
                   <Icon className="contact-arrow" name="arrow" size={17} />
                 </a>
               </div>
-              <span className="contact-decoration contact-decoration--one" aria-hidden="true">✳</span>
+              <span className="contact-decoration contact-decoration--one" aria-hidden="true"><Icon name="sparkle" size={70} /></span>
               <span className="contact-decoration contact-decoration--two" aria-hidden="true">✦</span>
             </div>
           </div>
